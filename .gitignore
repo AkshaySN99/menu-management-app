@@ -1,0 +1,96 @@
+# menu-management-backend .gitignore
+
+# compiled output
+/menu-management-backend/dist
+/menu-management-backend/node_modules
+/menu-management-backend/build
+
+# Logs
+/menu-management-backend/logs
+/menu-management-backend/*.log
+/menu-management-backend/npm-debug.log*
+/menu-management-backend/pnpm-debug.log*
+/menu-management-backend/yarn-debug.log*
+/menu-management-backend/yarn-error.log*
+/menu-management-backend/lerna-debug.log*
+
+# OS
+/menu-management-backend/.DS_Store
+
+# Tests
+/menu-management-backend/coverage
+/menu-management-backend/.nyc_output
+
+# IDEs and editors
+/menu-management-backend/.idea
+/menu-management-backend/.project
+/menu-management-backend/.classpath
+/menu-management-backend/.c9/
+/menu-management-backend/*.launch
+/menu-management-backend/.settings/
+/menu-management-backend/*.sublime-workspace
+
+# IDE - VSCode
+/menu-management-backend/.vscode/*
+/menu-management-backend!.vscode/settings.json
+/menu-management-backend!.vscode/tasks.json
+/menu-management-backend!.vscode/launch.json
+/menu-management-backend!.vscode/extensions.json
+
+# dotenv environment variable files
+/menu-management-backend/.env
+/menu-management-backend/.env.development.local
+/menu-management-backend/.env.test.local
+/menu-management-backend/.env.production.local
+/menu-management-backend/.env.local
+
+# temp directory
+/menu-management-backend/.temp
+/menu-management-backend/.tmp
+
+# Runtime data
+/menu-management-backend/pids
+/menu-management-backend/*.pid
+/menu-management-backend/*.seed
+/menu-management-backend/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+/menu-management-backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+# menu-management-frontend .gitignore
+
+# dependencies
+/menu-management-frontend/node_modules
+/menu-management-frontend/.pnp
+/menu-management-frontend.pnp.js
+/menu-management-frontend.yarn/install-state.gz
+
+# testing
+/menu-management-frontend/coverage
+
+# next.js
+/menu-management-frontend/.next/
+/menu-management-frontend/out/
+
+# production
+/menu-management-frontend/build
+
+# misc
+/menu-management-frontend/.DS_Store
+/menu-management-frontend*.pem
+
+# debug
+/menu-management-frontend/npm-debug.log*
+/menu-management-frontend/yarn-debug.log*
+/menu-management-frontend/yarn-error.log*
+
+# local env files
+/menu-management-frontend/.env*.local
+
+# vercel
+/menu-management-frontend/.vercel
+
+# typescript
+/menu-management-frontend/*.tsbuildinfo
+/menu-management-frontend/next-env.d.ts
